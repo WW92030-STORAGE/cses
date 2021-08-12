@@ -28,7 +28,7 @@ ll combine(ll a, ll b) {
     return b;
 }
 
-ll range(ll a, ll b, ll tree[], ll size, ll initial) {
+ll range(ll a, ll b, ll tree[], ll size, ll initial) { // size denotes the size of the array, not the tree.
     // initial = initial value. in this case it is the defined upper bound maxn.
     // example in a sum tree initial = 0.
     a += size;
